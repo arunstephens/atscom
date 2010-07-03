@@ -49,8 +49,6 @@ function showRandomPhoto()
 {
 	var index = Math.round(Math.random() * (photos.length - 1));
 	
-	console.log(index);
-	
 	var photo = photos[index];
 	
 	if (photo == null)
