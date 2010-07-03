@@ -1,0 +1,160 @@
+body {
+	font-family: Arial;
+	/* background-image: url(../images/hutt-river.jpg);
+	background-position: top center;
+	background-repeat: no-repeat; */
+	background-color: #333333;
+	height: 100%;
+}
+
+#toplayer
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	background-image: url(../images/heading.png);
+	background-repeat: no-repeat;
+	width: 421px;
+	height: 61px;
+	text-indent: -99999px;
+	margin: 60px 0 50px 0;
+}
+
+#content {
+	width: 826px;
+	margin: 0 auto 70px auto;
+}
+
+#content-top {
+	width: 826px;
+	background-image: url(../images/content-top.png);
+	background-repeat: no-repeat;
+	height: 20px;
+}
+
+#content-body {
+	width: 786px;
+	background-image: url(../images/content-body.png);
+	background-repeat: repeat-y;
+	padding: 0 20px;
+	color: #ffffff;
+}
+
+#content-bottom {
+	width: 826px;
+	background-image: url(../images/content-bottom.png);
+	background-repeat: no-repeat;
+	height: 17px;
+}
+
+h2 {
+	margin: 0 0 6px 0;
+	text-transform: lowercase;
+	font-size: 32px;
+	letter-spacing: -2px;
+}
+
+h2 a {
+	text-decoration: none;
+}
+
+h2 a:hover {
+	color: #eee;
+}
+
+p {
+	margin: 0;
+	font-size: 16px;
+}
+
+/*
+h2#blog {
+	background-image: url(../images/heading-blog.png);
+	width: 67px;
+}
+
+h2#photography {
+	background-image: url(../images/heading-photography.png);
+	width: 202px;
+}
+
+h2#portfolio {
+	background-image: url(../images/heading-portfolio.png);
+	width: 129px;
+}*/
+
+hr {
+	border: 0;
+	height: 3px;
+	width: 744px;
+	background-image: url(../images/spacer.png);
+	background-repeat: no-repeat;
+}
+
+#content-body div {
+	display: block;
+	padding: 12px 20px;
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+	padding: 0 40px;
+}
+
+a {
+	color: #ffffff;
+}
+
+p.caption {
+	font-weight: bold;
+	text-align: right;
+	color: #ffffff;
+	margin-bottom: 30px;
+	text-shadow: 1px 1px 3px #888;
+	float: right;
+}
+
+p.caption a
+{
+	text-decoration: none;
+}
+
+p.copyright {
+	color: #ffffff;
+	font-size: 11px;
+	margin: 30px 0;
+	text-shadow: 1px 1px 2px #888;
+}
+
+h2 a {
+	display: block;
+	outline: none;
+	width: 100%;
+	height: 100%;
+}
+
+#backgroundImage
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+#backgroundImageContainer
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: 0;
+}
