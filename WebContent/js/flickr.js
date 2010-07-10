@@ -1,4 +1,5 @@
 var backgroundImage;
+var backgroundImageContainer;
 var photos;
 var caption;
 var showFullSize = false;
@@ -43,6 +44,8 @@ function resizeBackgroundImage()
 		backgroundImage.css('width', '100%');
 		backgroundImage.css('height', 'auto');
 	}
+
+	backgroundImageContainer.height($(document).height());
 }
 
 function showRandomPhoto()

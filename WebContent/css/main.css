@@ -105,7 +105,7 @@ hr {
 #container {
 	width: 900px;
 	margin: 0 auto;
-	padding: 0 40px;
+	padding: 0 40px 40px 40px;
 }
 
 a {
@@ -116,7 +116,6 @@ p.caption {
 	font-weight: bold;
 	text-align: right;
 	color: #ffffff;
-	margin-bottom: 30px;
 	text-shadow: 1px 1px 3px #888;
 	float: right;
 }
@@ -158,5 +157,4 @@ h2 a {
 	overflow: hidden;
 	z-index: 0;
 	min-width: 960px;
-
 }
